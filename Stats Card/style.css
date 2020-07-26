@@ -17,16 +17,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.container h5 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1em;
+  color: #ffff h5;
+  color-font-family: "IBM Plex Sans", sans-serif;
+  color-font-weight: 400;
+  color-font-size: 1em;
 }
 
 .container .main {
-  background-color: rgba(30, 38, 46, 0.856);
+  background: rgba(30, 38, 46, 0.856);
   width: 85%;
   min-height: 45vh;
   border-radius: 7px;
@@ -112,7 +110,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .container .main {
-    height: auto;
+    color: #fff;
+    height: 90vh;
   }
   .container .main .content {
     -webkit-box-orient: vertical;
@@ -120,6 +119,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     letter-spacing: 0;
+    color: #fff;
   }
   .footer {
     margin-top: 0;

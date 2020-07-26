@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffff
 
     h5{
         font-family: $font;
@@ -22,7 +23,7 @@ body{
     }
 
     .main{
-        background-color: $innercolor;
+        background: $innercolor;
         width: 85%;
         min-height: 45vh;
         border-radius: 7px;
@@ -94,11 +95,12 @@ body{
 @media screen and (max-width: 768px) {
     .container{
         .main{
-            height: auto;
+            color: #fff;
+            height: 90vh;
             .content{
                 flex-direction: column;
                 letter-spacing: 0;
-             
+                color: #fff;
             }
         }
     }
